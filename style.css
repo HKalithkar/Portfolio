@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Salsa', cursive;
+}
+
+header {
+    margin: 0px 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+header > * {
+    border: 3px solid gold;
+    border-radius: 20px;
+}
+
+header > div {
+    max-width: 600px;
+    margin: auto;
+}
+
+.section {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+    border: 3px solid gold;
+    border-radius: 20px;
+}
+
+td {
+    padding: 10px 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
+
+#skills > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 50px);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: red;
+    
+}
