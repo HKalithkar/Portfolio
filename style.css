@@ -62,5 +62,20 @@ a {
 
 a:hover {
     color: red;
-    
+}
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+    .section, header {
+        flex-direction: column;
+    }
+
+    .section > h2 {
+        order: -1;
+    }
+
+    header > img {
+        margin: auto;
+    }
 }
