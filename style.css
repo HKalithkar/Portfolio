@@ -65,6 +65,22 @@ a:hover {
     color: red;
 }
 
+/* For more.html */
+
+body.more {
+    height: 100vh;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+body.more a {
+    padding: 50px;
+}
+
 /* Media Queries */
 
 @media (max-width: 800px) {
