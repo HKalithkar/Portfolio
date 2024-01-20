@@ -19,6 +19,7 @@ header > * {
 }
 
 header > div {
+    min-width: 300px;
     max-width: 600px;
     margin: auto;
 }
@@ -75,7 +76,7 @@ a:hover {
         order: -1;
     }
 
-    header > img {
+    header, header > img {
         margin: auto;
     }
 }
